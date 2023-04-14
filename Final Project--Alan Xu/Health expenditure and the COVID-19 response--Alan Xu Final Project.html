@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+    <script defer type="text/javascript" src="appscripts/dfChart.js">
+        </script>
+        
+    <style></style>
+</head>
+<body>
+    <h1>Health expenditure and the COVID-19 response</h1>
+    <div id="chart-container">
+        <div>
+            <h2>Total tests per thousand by Health expenditure per capita</h2>
+            <canvas id="Line Chart" ></canvas>
+        </div>
+        <div>
+            <h2>Total tests per thousand by Health expenditure per capita (Logged)</h2>
+            <canvas id="Scatter Chart"></canvas>
+        </div>
+    </div>
+
+    <div id="search-container">
+        <label for="searchInput">Take a look at your country's healthcare spending in 2021:</label>
+        <input type="text" id="searchInput" name="searchInput" placeholder="Enter Country/Region Name">
+        <button id="searchBtn">Search</button>
+    </div>
+    <div id="search-result"></div>
+</body>
+</html>
