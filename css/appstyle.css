@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(217, 224, 237);
+  }
+  
+
+  h1{
+    font-family: "Courier New", monospace;
+    font-size: 60px;
+    text-align: center;
+    line-height: 50px;
+    text-shadow: 8px 8px 16px rgba(57, 60, 57, 0.247);
+  }
+  #chart-container {
+    display: flex;
+}
+#chart-container canvas {
+    width: 50%;
+}
+  h2 {
+    font-family: "Trebuchet MS", sans-serif;
+    color:#013327;
+    text-shadow: 1px 1px 2px rgba(108, 212, 123, 0.3);
+    font-size: 40px;
+}
+ 
+#search-container { /*add a dashed line*/
+  border-top: 3px dashed  #92a1e9;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  line-height: 60px;
+}
+
+
+  label[for="searchInput"] {  /*change the features of the butoon part*/
+    font-family: "Georgia", serif;
+    font-size: 30px;
+    color: #00533f;
+    text-shadow: 1px 1px 2px rgba(108, 212, 123, 0.3);
+  }
+
+  button {
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    color: #fff;
+    background-color:#00533f;
+    border-color: #00533f;
+    border-radius: 6px;
+    padding: 9px 18px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00ac78;
+    border-color: #1a9a55;
+  }
+  
+  button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+  
+  button:active {
+    background-color: #0062cc;
+    border-color: #005cbf;
+  }
+  
+  #search-result {
+    font-family: "Georgia", serif;
+    font-size: 30px; 
+    color: #467f14; 
+    text-shadow: 1px 1px 2px rgba(108, 212, 123, 0.3);
+  }
+  
